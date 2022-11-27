@@ -218,6 +218,7 @@ display: flex;
 }
 .footer-one{
   display:flex;
+  background-color: hsl(217, 28%, 15%);
   
 }
 .find{
@@ -235,6 +236,7 @@ display: flex;
   display: flex;
   flex-direction: column;
   gap:15px;
+  background-color: hsl(217, 28%, 15%);
 }
 .icon{
   display: flex;
@@ -249,6 +251,7 @@ display: flex;
   display: flex;
   flex-direction: column;
   gap: 15px;
+  background-color: hsl(217, 28%, 15%);
 }
 .p-color{
   color:white;
