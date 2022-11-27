@@ -47,7 +47,7 @@
 .main-button{
   margin-top: 2rem;
   border:1px solid white;
-  background:rgba(19, 201, 251, 0.962);
+  background:hsl(198,60%,50%);
   width: 20vw;
   height:10vh;
   border-radius: 30px;
@@ -78,9 +78,7 @@
   justify-content: center;
   align-items: center;
 }
-.icon-div{
-  
-}
+
 .same-icon{
   margin: 20px;
 }
@@ -261,3 +259,23 @@ display: flex;
   color:white;
   width:10vw;
 }
+/* =============================media-query====================== */
+
+@media (max-width: 768px) {
+  body{
+    background-color:hsl(218, 28%, 13%);
+
+  }
+  .navbar{
+    background-color:hsl(217, 28%, 15%) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    gap:2rem;
+  }
+  navbar_right{
+    width: 100vw;
+  }
+}
+
