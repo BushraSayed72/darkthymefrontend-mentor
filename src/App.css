@@ -3,11 +3,13 @@
   padding:0;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+  background:hsl(218, 28%, 13%);
+
 }
 
 .navbar{
   background-color: hsl(217, 28%, 15%);
- 
+ width:100vw;
   padding:2rem;
  display: flex;
  align-items: center;
@@ -24,7 +26,7 @@
 /* ==============================main========================== */
 .main{
   background:hsl(218, 28%, 13%);
-  
+  width: 100vw;
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -204,14 +206,14 @@ display: flex;
 }
 /* ===========================footer====================== */
 .footer{
-  padding: 2rem 0 5rem 5rem;
+  padding: 2rem 1rem 5rem 6rem;
   background-color: hsl(217, 28%, 15%);
  
 }
 .footer-content{
   padding-top: 1rem;
   display:flex;
-  gap:3rem;
+  gap:5rem;
  
 }
 .footer-one{
@@ -254,28 +256,97 @@ display: flex;
   font-weight: 700;
 }
 .footer-icons{
+  padding-left: 6rem;
   display: flex;
   gap:10px;
   color:white;
-  width:10vw;
+  width:30vw;
+
 }
 /* =============================media-query====================== */
 
 @media (max-width: 768px) {
   body{
-    background-color:hsl(218, 28%, 13%);
+    background-color:hsl(218, 28%, 13%) !important ; 
 
   }
   .navbar{
-    background-color:hsl(217, 28%, 15%) ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   background-color: hsl(218, 28%, 13%) !important ; 
     width:100vw;
-    gap:2rem;
+    gap:6rem;
+    padding-left:10rem ;
   }
-  navbar_right{
-    width: 100vw;
+  .main{
+   background: hsl(218, 28%, 13%) !important ; 
+    margin-left:15rem;
   }
+  .main-button{
+    width:300px;
+  }
+  .center1{
+    display:flex;
+    flex-direction: column;
+  }
+
+    .center2{
+      display:flex;
+      flex-direction: column;
+    }
+    .main-last{
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+
+    }
+    .cards{
+     background-color:  hsl(218, 28%, 13%) !important ; 
+      display: flex;
+      flex-direction:column ;
+      margin-left:10rem ;
+      width: 100vw;
+    }
+    .bg-color{
+      margin-left:22rem;
+      
+    }
+    .input-button{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .input{
+      width:15rem;
+    }
+    .input-button button{
+      height:3rem;
+      
+    }
+    .footer{
+      background-color:  hsl(218, 28%, 13%) !important ; 
+    }
+   
+    .footer-content{
+      display: flex;
+      width:100vw;
+      flex-direction: column;
+      margin-left:0;
+      
+    }
+    .footer img{
+      margin-left:14rem;
+    }
+    .footer-one{
+      /* margin-left: rem; */
+    }
+    .footer-three{margin-left: 15rem;
+
+    }
+    .footer-one{
+      text-align: center;
+      padding-top: 5rem;
+    }
+  
+
+  
 }
 

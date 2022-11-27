@@ -16,7 +16,7 @@ function Footer() {
         <div className='footer-one'>
         <img className='find' src={ find} alt='find'/>
 
-        <p className='footer-para'>Lorem ipsum dolor sit amet, consectetur<br/> adipiscing elit, sed do eiusmod tempor <br/>incididunt ut labore et 
+        <p className='footer-para'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br/>incididunt ut labore et 
   dolore magna aliqua</p>
         </div>
 
